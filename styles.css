@@ -1,0 +1,42 @@
+:root {
+    --cor-de-fundo: #6d92dd;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.colunn {
+    
+    width: 40%;
+    padding:  10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.colunn.left {
+    float: left;
+    margin-top: auto;
+    
+}
+.colunn.right {
+    float: right;
+}
+img {
+    max-width: 90%;
+    height: auto;
+}
+.cabeçalho {
+    font-size: 50px;
+    border: px;
+    border-color: black;
+}
